@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/parlour.jpg) no-repeat;
+    color: #1B1B1B;
+    line-height: 1.2;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header styles start */
+
+.header {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.wrapper {
+    max-width: 1168px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.header_nav {
+    
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.header_item {
+    margin-right: 50px;
+    
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 24px;
+    line-height: 27px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header_link:hover, .header_link:focus, .header_link:active {
+    opacity: 75;
+    color: #C4C4C4;
+    transition: 0.1s;
+}
+
+/* Header styles end */
+
+/* Intro styles start */
+
+
+.main {
+    max-width: 1168px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.stick_one {
+    position: absolute;
+    right: 0;
+    top: 400px;
+}
+
+.stick_two {
+    max-height: 600px;
+    max-width: 900px;
+    position: absolute;
+    left: 200px;
+    top: 1100px;
+}
+
+
+.stick_one > img {
+    position: absolute;
+    left: -50px;
+    top: -200px;
+}
+
+.stick_two > img {
+    position: absolute;
+    right: -60px;
+    top: -170px;
+}
+
+
+#vlad {
+    color: white;
+    text-align: center;
+}
+
+#reviews {
+    color: white;
+}
+
+.clients {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro_title {
+    color: white;
+}
+
+.intro {
+    max-width: 1168px;
+    margin: 0 auto;
+    padding-top: 300px;   
+}
+
+.slogan {
+    font-size: 32px;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.contacts {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 700px;
+    margin-bottom: 127px;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.main {
+    max-width: 1168px;
+    margin: 0 auto;
+
+}
+
+.description {
+    color: white;
+    
+}
+
+ .description_image_text {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+
+}
+
+#ex_wr {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 50px;
+}
+
+.examples_works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
+    max-width: 795px;
+}
+
+.examples_works > img {
+    margin-bottom: 90px;
+
+}
+
+.examples_works > img:not(:nth-child(3n)) {
+    margin-right: 100px;
+}
+
+.demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#des_img {
+    float: left;
+    margin-right: 40px;
+}
+
+#masters {
+    color: white;
+    padding: 100px 0px 0px 100px;
+}
+
+/* Intro styles end */
+
+.footer {
+    background-color: black;
+
+}
+
+.average_container {
+    max-width: 1168px;
+    margin: 0 auto;
+    position: relative;
+ 
+}
+
+.content_container {
+    padding: 40px 20px 40px 0px;
+}
+
+.rights {
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+#im {
+    color: white;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+
+

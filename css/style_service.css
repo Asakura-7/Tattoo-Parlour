@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/background_portfolio.jpg) no-repeat;
+    color: #1B1B1B;
+    line-height: 1.2;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+
+.header {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.wrapper {
+    max-width: 1168px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.header_nav {
+    
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.header_item {
+    margin-right: 50px;
+    
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 24px;
+    line-height: 27px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header_link:hover, .header_link:focus, .header_link:active {
+    opacity: 75;
+    color: #C4C4C4;
+    transition: 0.1s;
+}
+
+.main {
+    max-width: 1168px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    padding-top: 130px;
+}
+
+span {
+    border-radius: 5px;
+    background-color: #1B1B1B;
+}
+
+.masters {
+    display: flex;
+}
+
+.anton {
+    position: absolute;
+    display: inline-block;
+    padding-top: 60px;
+}
+
+.anton > img {
+    border-radius: 20px;
+}
+
+#master_anton {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+}
+
+.margo {
+    position: absolute;
+    display: inline-block;
+    padding-top: 400px;
+}
+
+.margo > img {
+    border-radius: 20px;
+}
+
+#master_margo {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+}
+
+.photos_works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0 0 330px;
+    max-width: 850px;
+}
+
+.photos_works > img {
+    margin-bottom: 25px;
+    margin-right: 0px;
+    
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    padding-top: 350px;
+}
+
+#work {
+    margin-bottom: -20px;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+
+}
+
+.average_container {
+    max-width: 1168px;
+    margin: 0 auto;
+    position: relative;
+ 
+}
+
+.content_container {
+    padding: 40px 20px 40px 0px;
+}
+
+.rights {
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+#im {
+    color: white;
+    font-size: 22px;
+    padding-left: 10px;
+}
