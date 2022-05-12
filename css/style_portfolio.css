@@ -11,7 +11,7 @@ body {
     
 }
 
-/* Header styles start */
+/* Header style */
 
 .header {
     background: rgb(0,0,0);
@@ -36,10 +36,6 @@ body {
     align-items: flex-end;
     justify-content: space-between;
     padding: 20px 0 20px 0;
-}
-
-.header_nav {
-    
 }
 
 .header_list {
@@ -71,6 +67,8 @@ body {
     color: #C4C4C4;
     transition: 0.1s;
 }
+
+/* Main style */
 
 .main {
     max-width: 1168px;
@@ -144,11 +142,17 @@ body {
 
 .button {
     border-radius: 10px;
-    background-color: yellow;
     text-decoration: none;
     text-align: center;
     font-size: 48px;
     color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all 0.5s;
+    background-color: yellow;
 }
 
 .button:hover {
@@ -156,6 +160,8 @@ body {
     color: #313131;
     transition: 0.1s;
 }
+
+/* Footer style */
 
 .footer {
     background-color: black;

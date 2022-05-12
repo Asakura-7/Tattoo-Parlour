@@ -10,7 +10,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-/* Header styles start */
+/* Header style*/
 
 .header {
     background: rgb(0,0,0);
@@ -37,9 +37,6 @@ body {
     padding: 20px 0 20px 0;
 }
 
-.header_nav {
-    
-}
 
 .header_list {
     display: flex;
@@ -71,6 +68,8 @@ body {
     transition: 0.1s;
 }
 
+/* Main style */
+
 .main {
     max-width: 1168px;
     margin: 0 auto;
@@ -100,6 +99,8 @@ body {
     justify-content: right;
     padding-top: 20px;
 }
+
+/* Footer style */
 
 .footer {
     background-color: black;
